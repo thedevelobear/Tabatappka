@@ -1,0 +1,15 @@
+{
+  "extends": "./tsconfig.json",
+  "compilerOptions": {
+    "noEmit": true,
+    "allowJs": true
+  },
+  "include": [
+    ".eslintrc.base.cjs",
+    ".eslintrc.cjs",
+    "vite.config.base.ts",
+    "vite.config.ts",
+    "vitest.config.ts",
+    "vitest/setupTests.ts"
+  ]
+}

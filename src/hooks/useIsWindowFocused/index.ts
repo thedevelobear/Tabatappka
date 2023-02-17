@@ -1,0 +1,1 @@
+export { useIsWindowFocused } from './useIsWindowFocused';
